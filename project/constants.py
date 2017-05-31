@@ -1,0 +1,15 @@
+import math
+
+'''Constants'''
+INFECTION_RATE = float(0.5)
+SOCIAL_INFLUENCE_FACTOR = float(0.5)
+CLOSENESS_FACTOR = float(0.5)
+PERCIEVED_INFECTION_RATE = INFECTION_RATE
+RECOVERY_RATE = float(0.312)
+N = 788
+COST_RATIO = float(0.5)
+PROB_OF_ANTI_VAC = 0.9
+RESPONSIVENESS = 5
+R_0 = 1.6
+
+I_START = math.floor(max(N * 0.01, 1))
